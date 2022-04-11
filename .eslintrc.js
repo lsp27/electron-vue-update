@@ -25,7 +25,8 @@ module.exports = {
 		"no-console": 0,
 		"indent":[0, 2],
 		"comma-dangle": 0,
-		"space-before-function-paren": 0
+		"space-before-function-paren": 0,
+		"spaced-comment": 0
 
   }
 }
