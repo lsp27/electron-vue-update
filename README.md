@@ -4,6 +4,10 @@
 
 #### Build Setup
 
+node v14.15.0
+yarn 1.22.17
+vue -V 2.9.6
+
 ``` bash
 # install dependencies
 npm install
