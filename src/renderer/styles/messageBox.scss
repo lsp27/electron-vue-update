@@ -1,0 +1,40 @@
+.el-message-box {
+  &--center {
+    &.title-with-icon {
+      padding: 24px;
+
+      .el-message-box__header {
+        padding: 0;
+
+        .el-message-box__title {
+          font-size: 16px;
+          justify-content: left;
+          align-items: flex-start;
+          line-height: 18px;
+
+          .el-message-box__status {
+            font-size: 18px !important;
+          }
+        }
+
+        .el-message-box__headerbtn {
+          display: none;
+        }
+      }
+
+      .el-message-box__content {
+        text-align: left;
+        padding: 16px 0 16px 22px;
+      }
+
+      .el-message-box__btns {
+        text-align: right;
+        padding: 0;
+
+        button:nth-child(2) {
+          margin-left: 12px;
+        }
+      }
+    }
+  }
+}

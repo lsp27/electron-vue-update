@@ -1,0 +1,11 @@
+.el-checkbox {
+  &__inner {
+    width: 16px;
+    height: 16px;
+
+    &::after {
+      width: 4px;
+      border-width: 2px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+/*可给复合型输入框的样式加这个类 去掉末尾的背景色*/
+.input-group-without-bg {
+  .el-input__inner {
+    padding: 0 50px 0 12px;
+  }
+
+  .el-input__suffix{
+    right: 10px;
+  }
+
+  .el-input-group{
+    &__append {
+      background: #fff;
+      padding: 0;
+      width: 12px;
+      border: none;
+      position: absolute;
+      right: 12px;
+      top: 8px;
+      button{
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    }
+  }
+}
